@@ -4,8 +4,8 @@ body {
 	border: 5px solid #777777;
 	padding: 50px;
 	background:  #e9e9e9;
-}
 
+}
 
 
 a {
@@ -37,7 +37,6 @@ h2 {
 h3 {
 	font-size: 18px;
 	color: #BBBBBB;
-	text-transform: uppercase;
 	letter-spacing: 2px;
 	margin-top: 42px;
 }
@@ -78,11 +77,13 @@ hr {
 }
 
 img {
-	float: right;
+	float: center;
 	margin-left: 20px;
 	margin-bottom: 20px;
 	border: 1px solid #999999;
-	padding: 5px;
+	width: 50%;
+	border-width: 15px;
+	border-color:  #FFFFFF;
 }
 
 nav {
