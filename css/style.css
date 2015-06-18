@@ -1,42 +1,49 @@
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+
 body {
-	font: 1em/1.67 'Open Sans', Arial, Sans-serif;
+	font: 1.5em/1.47 'Open Sans', Arial, Sans-serif;
 	margin: 15px;
-	border: 5px solid #777777;
 	padding: 50px;
-	background:  #e9e9e9;
+	background:  #FFF;
+	color: #0c180b;
 
 }
 
 
 a {
 	font-weight: bold;
-	color: #00CC99;
+	color: ##193117;
 }
 
 small {
-	color: #BBBBBB;
+	color: #0c180b;
 }
 
 strong {
-	color: #FFFFFF;
+	color: #171931;
 }
 
 h1 {
 	font-family: Georgia, serif;
 	font-weight: normal;
-	text-align: center;
-	color: #FFFFFF;
+	color: #311719;
 	font-style: italic;
 	margin-top: 0;
 }
 
 h2 {
-	color: #FFFFFF;
+	color:#311719;
 }
 
 h3 {
 	font-size: 18px;
-	color: #BBBBBB;
+	color: #2f1731;
 	letter-spacing: 2px;
 	margin-top: 42px;
 }
@@ -44,30 +51,25 @@ h3 {
 h4 {
 	font-weight: normal;
 	margin-bottom: 0;
+	color: #171931;
 }
 
 h5 {
 	font-family: Helvetica, sans-serif;
 	font-weight: lighter;
-	text-align: center;
-	color: #FFFFFF;
+	color: #311719;
 	font-style: italic;
 	margin-top: 0;
 }
 
 
-p {
-	font-family: Georgia, serif;
-	margin-top: 0;
-	margin-bottom: 27px;
-}
-
 ul {
 	list-style: square;
+	line-height: .5em;
 }
 
 ul p {
-	color: #BBBBBB;
+	color: #311719;
 }
 
 hr {
@@ -77,16 +79,11 @@ hr {
 }
 
 img {
-	float: center;
-	margin-left: 20px;
 	margin-bottom: 20px;
 	border: 1px solid #999999;
-	width: 50%;
-	border-width: 15px;
-	border-color:  #FFFFFF;
+	width:200px;
 }
 
 nav {
 	color: #999999;
-	text-align: center;
-}
+	}
