@@ -4,14 +4,14 @@
      -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
      box-sizing: border-box; /* IE */
 }
-
-
 body {
-	font: 1.5em/1.47 'Open Sans', Arial, Sans-serif;
-	margin: 15px;
-	padding: 50px;
+	font: 1.2em/1.2 'Open Sans', Arial, Sans-serif;
+	margin-left: 20%;
+	margin-right: 20%;
 	background:  #FFF;
 	color: #0c180b;
+	min-width: 200px;
+	max-width: 1080;
 
 }
 
@@ -34,8 +34,11 @@ h1 {
 	font-weight: normal;
 	color: #311719;
 	font-style: italic;
-	margin-top: 0;
+	margin-bottom: 10px;
+	
 }
+
+
 
 h2 {
 	color:#311719;
@@ -62,6 +65,16 @@ h5 {
 	margin-top: 0;
 }
 
+p{
+	
+	max-width: 1020px;
+	min-width:250px;
+
+}
+
+small{
+	line-height: 20px;
+}
 
 ul {
 	list-style: square;
@@ -78,12 +91,12 @@ hr {
 	margin: 30px 0;
 }
 
-img {
-	margin-bottom: 20px;
-	border: 1px solid #999999;
-	width:200px;
-}
 
 nav {
 	color: #999999;
 	}
+
+img{
+	max-width: 350px;
+}
+
